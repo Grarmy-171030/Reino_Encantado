@@ -27,7 +27,7 @@ class MagicItem:
         self.efecto = efecto
     #Metodo de Usar personajes 
     def usar(self, personaje):
-        #Condicional para el uso de pocion o armadura
+        #Condicional para el uso de pocion 
         if self.tipo == "pocion":
             personaje.vida += self.efecto
             print(f"{personaje.nombre} usa {self.nombre} y recupera {self.efecto} de vida.")
